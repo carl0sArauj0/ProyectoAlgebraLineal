@@ -1,1 +1,2 @@
 # ProyectoAlgebraLineal
+Para el Proyecto de Álgebra Lineal Básica crearemos un juego básico de Snake donde el jugador sea capaz de poner trampas y elegir la posición inicial del snake, posteriormente se entrena un agent con Deep Q-Learning para que pueda jugar.
