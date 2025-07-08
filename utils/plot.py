@@ -1,5 +1,3 @@
-# utils/plot.py
-
 import plotly.graph_objects as go
 import os
 from typing import List
@@ -8,18 +6,7 @@ from typing import List
 from config import PLOT_FOLDER_PATH
 
 def save_plot(scores: List[float], mean_scores: List[float]):
-    """
-    Crea y guarda un gráfico interactivo y estático del progreso del entrenamiento
-    utilizando la biblioteca Plotly.
 
-    Esta función genera dos archivos en la carpeta definida en `config.py`:
-    1. Un archivo .html interactivo.
-    2. Un archivo .png estático.
-
-    Args:
-        scores (List[float]): Una lista con los puntajes de cada partida.
-        mean_scores (List[float]): Una lista con la media móvil de los puntajes.
-    """
     # Asegurarse de que la carpeta de destino exista
     if not os.path.exists(PLOT_FOLDER_PATH):
         os.makedirs(PLOT_FOLDER_PATH)
