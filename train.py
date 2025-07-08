@@ -10,7 +10,7 @@ from config import (
 )
 
 # --- Configuración de la Visualización ---
-VISUALIZE_TRAINING = True
+VISUALIZE_TRAINING = False  # Cambia a True si quieres ver el entrenamiento en tiempo real
 
 def train():
     """
