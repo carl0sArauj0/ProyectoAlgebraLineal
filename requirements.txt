@@ -2,3 +2,4 @@ pygame     # Para la interfaz gráfica, el manejo de eventos y el bucle del jueg
 numpy      # Para manejar los estados y cálculos numéricos de forma eficiente.
 torch      # Para todos los procesos de aprendizaje profundo y entrenamiento del modelo.
 matplotlib # Para graficar los resultados del entrenamiento.
+kairo # Para guardar las gráficas de aprendizaje
